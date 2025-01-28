@@ -107,9 +107,9 @@ Similarly, in education, the synthetic dataset fails to accurately replicate rar
 For attribute like sex the synthetic data aligns relatively well with the real data, likely because of its binary nature, which is simpler to replicate.
 The native-country attribute reveals the greatest divergence, with the synthetic data poorly representing many countries and overemphasizing the majority. This is likely due to the high imbalance and the large number of unique values, which make accurate replication challenging. 
 
-## we did  the same feature analysis for the 4 combinations: (1) GAN, (2) cGAN, (3) GAN wit AE, (4) cGAN with AE (attached in the report)
+#### we did  the same feature analysis for the 4 combinations: (1) GAN, (2) cGAN, (3) GAN wit AE, (4) cGAN with AE (attached in the report)
 
-# We have conducted an experiment in which we incorporated an Autoencoder (AE) into the models' architecture: 
+### We have conducted an experiment in which we incorporated an Autoencoder (AE) into the models' architecture: 
 
 #### loss values of cGAN with AE
 Generator loss 
